@@ -32,7 +32,7 @@ de primer semestre '''
 #APLICANDO EL METODO SPLIT (GENERA UN ARREGLO DE CADENA)
 print(descripcion.split())
 
-#ARREGLO NUMERICO
+#ARREGLO NUMERICO 
 
 
 
