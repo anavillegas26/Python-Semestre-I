@@ -59,13 +59,3 @@ print(ramos.count('Programación'))
 #CREANDO E INSTANCIANDO UNA TUPLA
 estudiante = ('Samir', 'Matías', 'Hector')
 print(estudiante.index('Samir'))
-
-
-
-
-
-
-
-
-
- 
