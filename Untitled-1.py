@@ -56,6 +56,10 @@ print(ramos[0])
 #FUNCION COUNT (CUENTA LA CANTIDAD DE CONCURRENCIAS DE UN ELEMENTO)
 print(ramos.count('Programación'))
 
+#CREANDO E INSTANCIANDO UNA TUPLA
+estudiante = ('Samir', 'Matías', 'Hector')
+print(estudiante.index('Samir'))
+
 
 
 
