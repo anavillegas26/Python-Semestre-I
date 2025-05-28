@@ -59,3 +59,26 @@ print(ramos.count('Programación'))
 #CREANDO E INSTANCIANDO UNA TUPLA
 estudiante = ('Samir', 'Matías', 'Hector')
 print(estudiante.index('Samir'))
+
+ciudad = ("osorno")
+print(ciudad)
+
+#OTRA FORMA DE INSETAR UN ELEMENTO LA FUNCION LIST
+
+
+#ELIMINAR EL ULTIMO ELEMENTO DE LA LISTA 
+ramos.pop()
+
+# ORDENANDO ELEMENTOS DE UNA LISTA 
+ramos.sort()
+print(ramos)
+
+#ORDENANOD ELEMENTOS DE UNA LISTA  DE FORMA DESCEDENTE A ASCENDENTE
+ramos.sort()
+print(ramos)
+
+# ORDENANDO ELEMENTOS DE UNA LISTA SEGUN SU CANTIDAD  DE CARACTERES
+ramos.sort(key=len) # key es una propiedad del metodo sort y se pasa un valor que en el metodo  len
+print(ramos)
+
+#OCUPANDO  EL METODO EXTEND
