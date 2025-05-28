@@ -33,6 +33,31 @@ de primer semestre '''
 print(descripcion.split())
 
 #ARREGLO NUMERICO 
+v = [1,2,3,4,5] #INICIANDO UN ARREGLO NUMERICO
+print(v[0]) # EL VALOR DE CERO MARCA LA POSICION DEL PRIMER ELEMENTO(INDICE)
+
+#FUNCION LEND (CONTAR CANTIDAD DE CARACTERES)
+print('la palabra', carrera, len(carrera))
+
+# VALORES BOOLEANOS
+interruptor = True
+ampolleta = False
+print(interruptor,ampolleta)
+
+#LISTA SOLO DE NUMEROS
+n = [1,2,3,4,5]
+
+#LISTA SE SOLO STRING - UTILIZANDO LA FUNCION LIST
+ramos = list(['Programación,' 'Química','POO' 'Programación'])
+
+#IMPRIME LA POSICION DEL PRIMER ELEMENTO DE LA LISTA (NO EL CARACTER)
+print(ramos[0])
+
+#FUNCION COUNT (CUENTA LA CANTIDAD DE CONCURRENCIAS DE UN ELEMENTO)
+print(ramos.count('Programación'))
+
+
+
 
 
 
