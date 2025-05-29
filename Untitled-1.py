@@ -81,4 +81,21 @@ print(ramos)
 ramos.sort(key=len) # key es una propiedad del metodo sort y se pasa un valor que en el metodo  len
 print(ramos)
 
-#OCUPANDO  EL METODO EXTEND
+#OCUPANDO  EL METODO EXTEND(EXTENDIENDO UNA LSITA A PARTIR DE OTRA)
+ramitos = ['calculo', 'automatas'] #nueva lista creada
+ramos.extend(ramitos)
+print(ramos)
+
+estudiante = ('Samir', 'Matías', 'Hector')
+
+ #creando e  INSTANCIANDO TUPLAS
+estudiantes = ("samir",)
+#METDO ONDEX EN TUPLAS
+print(estudiantes.index('carlos'))
+
+#METODO SORTED EN TUPLAS (ORDENA ELEMENTOS EN UNA TUPLA  y lo pasa a lista)
+print(sorted(estudiantes))
+
+
+
+
