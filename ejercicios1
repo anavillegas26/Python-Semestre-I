@@ -19,6 +19,12 @@ print(ejercicio3)
 
 len("cuantos caracteres tiene esta frase")
 
+nombre = input("¿Como te llamas?")
+print(f"Hola, Mi nombre es {nombre}")
+
+precio = input(" ¿cuanto vale el libro de artes?")
+print(f"El libro de  Artes vale {precio}")
+
 
 
 
