@@ -1,0 +1,7 @@
+
+print ("Por favor ingresa tu nombre")
+nombre= input()
+print ("Por favor ingresa tu edad")
+edad = input ()
+años =int(47 + 20)
+print = f"Mi nombre es{nombre} y mi edas es {edad}y en 20 años voy a tener {años} años"
