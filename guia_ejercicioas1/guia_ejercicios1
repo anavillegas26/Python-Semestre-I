@@ -1,0 +1,7 @@
+bebida = "Pepsi"
+valor = int("1000")
+stock = int("100")
+print(valor * stock)
+valor_total=(valor * stock)
+umbral= bool(valor_total > int(100000))
+umbral= bool(valor_total< int(100000))
