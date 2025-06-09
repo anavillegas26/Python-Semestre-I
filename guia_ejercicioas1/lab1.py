@@ -22,3 +22,7 @@ valor_max = max(total_serrucho, total_tornillos, total_clavos, total_serrucho)
 print(f"El valor maximo de todos los productos es: {valor_max}")
 valor_min = min(total_serrucho, total_tornillos, total_clavos, total_serrucho) 
 print(f"El valor minimo de total de productos es : {valor_min}")
+promedio_valor_unitario = (valor_clavos + valor_martillo + valor_serrucho +valor_tornillos) /4
+print(f"promedio_valor_unitario: {promedio_valor_unitario:.2f}")
+iva = (total_serrucho + total_tornillos + total_clavos + total_serrucho *19)/100
+print(f"El valor del iva es : {iva}" )
