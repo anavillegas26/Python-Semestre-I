@@ -1,7 +1,8 @@
 entrada = input("Ingrese un valor entero")
 import os
-    print("Directorio de trabajo actual:", os.getcwd()) # muestra la abicacion del directorio actual
-try:
+print("Directorio de trabajo actual:", os.getcwd()) # muestra la abicacion del directorio actual
+if 
+
     numero = int (entrada)
     print(f"Numero ingresad: {numero}")
 except ValueError:

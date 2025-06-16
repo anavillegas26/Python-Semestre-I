@@ -1,6 +1,6 @@
 edad = 19
 if edad >=18 :
-    print("Eres mayor de edad")
+    print("Eres mayor de edad") # siempre se debe tabular, para que pertecesca a el if de arriba
 elif edad >=65:
     print("Eres un adulto mayos")    # se tienen que cumplir las 2 condiciones mayor de edad y adulto 
 else:
