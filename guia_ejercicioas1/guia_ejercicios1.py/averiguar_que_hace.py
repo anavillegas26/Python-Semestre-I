@@ -1,0 +1,1 @@
+nombres = ["Elena", "Juan","Pedro"; "Diego";]
