@@ -15,5 +15,5 @@ complejo = complex(input("Ingresa un numero complejo:"))
  
  # se calcula la potencia compleja
 potencia_compleja = complejo ** entero
-print(f"potencia compleja:{potencia_compleja}")
+print(f"potencia compleja:{potencia_compleja,}")
 
