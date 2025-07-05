@@ -1,13 +1,11 @@
-'''esarrollar un programa de gestión de inventario: 
+'''Desarrollar un programa de gestión de inventario: 
 A. Ingresar el nombre de un producto y su precio unitario. 
 B. Ingresar la cantidad en stock. 
 C. Calcular el valor total de los productos ingresados y mostrarlo con 2 decimales. 
 D. Crear una variable booleana llamada umbral, que entregue un True si el valor_total > 
 100000 y False en caso contrario.. 
 E. Imprimir el nombre del producto, la cantidad, el valor total y el estado umbral en un solo 
-print() formateado. 
-Programación - Ejercicios Prácticos                                                                                                                              
-Correo: victor.saldivia@ulagos.cl'''
+print() formateado. '''                                                                                                                             
 
 # solicitar al usuario que ingrese los datos que necesito
 print("Por f)avor ingrese el nombre del producto:")
@@ -22,4 +20,4 @@ stock = int(input())
 valor_total= (valor * stock)
 print(f"el valor total en stock es:{valor_total:.2f}")
 
-# crear la variable booleana para 100000
+
